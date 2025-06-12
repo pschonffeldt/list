@@ -1,9 +1,12 @@
 export default function Footer() {
   return (
     <footer>
-      <small>&copy; 2025. Copyright by pschonffeldt</small>
+      <small>
+        &copy; 2050. Copyright por{" "}
+        <a href="https://pschonffeldt.dev/">pschonffeldt</a>.
+      </small>
       <p>
-        Version <b>1.5</b>
+        Versión <b>1.0.1</b>
       </p>
     </footer>
   );

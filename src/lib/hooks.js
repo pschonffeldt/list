@@ -6,8 +6,9 @@ export function useItemsContext() {
 
   if (!context) {
     throw new Error(
-      "useItemsContext must be used within a ItemsContextProvider"
+      "useItemsContext must be used within an ItemsContextProvider"
     );
   }
+
   return context;
 }
